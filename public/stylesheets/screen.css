@@ -145,3 +145,16 @@ h2, h3, h4{
 #about li {
   margin: 0 0 0 30px;
 }
+
+#worksummary img{
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.quote {
+  background-color: rgba(0,0,0,0.1);
+  margin: 25px;
+  font-size: 24px; 
+  padding: 10px;
+  font-family: Dancing Script;
+}
