@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brett Bim | The Pixelated Version | <%= @title %></title>
+  <%= stylesheet_link_tag 'screen', :media => 'screen' %>
+  <%= stylesheet_link_tag '960gs/960', :media => 'screen' %>
+  <%= stylesheet_link_tag '960gs/reset', :media => 'screen' %>
+  <%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Artifika', :media => 'screen' %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+  
+</head>
+<body>
+  <header>
+  <%= render 'layouts/header' %>
+  </header>
+  <section>
+    <div id="main">
+      <%= yield %>
+    </div>
+    </section>
+  <footer>
+    <%= render 'layouts/footer' %>
+  </footer>
+</body>
+</html>

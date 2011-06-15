@@ -1,0 +1,147 @@
+/* Using the sticky footer solution by Steve Hatcher.
+ * see www.cssstickyfooter.com for more info
+ */
+
+* { margin: 0;padding0;}
+
+
+html, body {
+  height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 50px;
+  background: #fff url('/images/main_bk.jpeg') repeat left top;
+
+}
+
+footer {
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear:both;
+  background-color: #ffb273;
+}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+body {
+  font:normal 16px/24px "Artifika", "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+}
+
+a {
+  text-decoration: none;
+  color: #ff7400;
+}
+
+h2, h3, h4{
+  color:#a64b00;
+}
+
+#header{
+  background: #000 url("/images/banner_bk.jpeg") repeat-x left bottom;
+  padding:40px 0; 
+  top:0;
+  z-index:100;
+}
+
+#header a {
+  font-size:26px;
+  color: #006363;
+}
+
+#header h2 {
+  font-size: 20px;
+}
+
+#nav {
+  float:right;
+  padding: 5px 0 0 0;
+}
+
+#nav ul {
+}
+
+#nav ul li {
+  display: inline;
+  list-style: none;
+  padding: 0.3em 0;
+}
+
+#nav ul li a {
+  color: #009999; 
+  padding: 5px;
+  font-size:16px;
+  border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-transition: background .2s ease-out;
+
+}
+
+#nav ul li a:hover {
+  background: #ffb273;
+}
+
+#home strong {
+  font-weight:300;
+  color: #1d7373;
+}
+
+#photoblog img {
+  border:1px;
+}
+
+#summaries, 
+#summary,
+#examples,
+#blogs, 
+#about,
+#about_describe{
+  padding:25px 0;
+}
+
+#footer {
+  font-size: 12px;
+}
+
+#examples li {
+  list-style: none;
+  padding: 0.3em 0;
+}
+
+#about_describe {
+  border-top:1px solid gray;
+}
+
+#about_describe img{
+  float:left;
+  margin: 0 20px 20px 0;
+}
+
+#timeline {
+  padding: 0 0 25px 0;
+}
+
+#tidbits {
+  padding: 25px 0;
+  border-top: 1px solid gray;
+}
+
+#about ul{
+  margin:0;
+  padding:0;
+}
+
+#about li {
+  margin: 0 0 0 30px;
+}
