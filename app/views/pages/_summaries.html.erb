@@ -1,21 +1,26 @@
 <div id="summaries">
   <div class="container_12">
-    <div class="grid_6">
-      <h4>I'm a software developer</h4>
-      <a href="/work"><%= image_tag('/images/code.png', :size => "450x225") %></a>
+    <div class="grid_4">
+      <h4><a href="/work">I'm a software developer</a></h4>
       <p>I'm predominantly a software developer by trade.  I'm self taught having been terribly underprepared for 
       development with a psychology degree.  Most of my experience is in Microsoft technologies but my 
       Ruby/Rails abilities are quickly expanding.</p>
     </div>
-    <div class="grid_6">
-      <h4>I'm a writer</h4>
-      <a href="/writing"><%= image_tag('/images/mexico1.png', :size => "450x225") %></a>
+    <div class="grid_4">
+      <h4><%= link_to("I'm a writer", writing_path) %></h4>
       <p>Note, I did not say I'm an author though when I get something published, I'll be sure to update this
       accordingly.  I've always felt comfortable with the written word and I have the 500 word emails to
       prove it, much to my coworkers chagrin.</p>
     </div>
+    <div class="grid_4">
+      <h4><%= link_to("I'm a CrossFitter", "http://www.crossfit.com") %></h4>
+      <p>What this means to me and what this means to my friends and family are two entirely different things
+      summarized as they think I'm insane and I don't.
+      I've been doing CrossFit since August, 2008 and got my Level I Certificate in September 2009.  I 
+      occasionally train people in the CrossFit methodolgy and am always willing to discuss the benefits of
+      CrossFit.</p>
+    </div>
     <div class="clear"></div>
-
   </div>
 </div>
 
