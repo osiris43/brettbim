@@ -110,8 +110,13 @@ h4{
 #blogs, 
 #about,
 #about_describe,
-#timeline {
+#timeline, 
+#crossfit {
   padding:25px 0;
+}
+
+#crossfit {
+  border-top: 1px solid gray;
 }
 
 #footer {
@@ -126,7 +131,8 @@ h4{
   border-top:1px solid gray;
 }
 
-#about_describe img{
+#about_describe img,
+#crossfit img{
   float:left;
   margin: 0 20px 20px 0;
 }
