@@ -47,6 +47,9 @@ h2, h3, h4{
   color:#a64b00;
 }
 
+h4{
+}
+
 #header{
   background: #000 url("/images/banner_bk.jpeg") repeat-x left bottom;
   padding:40px 0; 
@@ -103,10 +106,11 @@ h2, h3, h4{
 
 #summaries, 
 #summary,
-#examples,
+#photography,
 #blogs, 
 #about,
-#about_describe{
+#about_describe,
+#timeline {
   padding:25px 0;
 }
 
@@ -114,9 +118,8 @@ h2, h3, h4{
   font-size: 12px;
 }
 
-#examples li {
-  list-style: none;
-  padding: 0.3em 0;
+#photography {
+  border-top: 1px solid gray;
 }
 
 #about_describe {
@@ -128,9 +131,6 @@ h2, h3, h4{
   margin: 0 20px 20px 0;
 }
 
-#timeline {
-  padding: 0 0 25px 0;
-}
 
 #tidbits {
   padding: 25px 0;
@@ -147,8 +147,9 @@ h2, h3, h4{
 }
 
 #worksummary img{
-  float: left;
+  float: right;
   margin: 0 20px 20px 0;
+  padding: 15px;
 }
 
 .quote {
