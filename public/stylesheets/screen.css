@@ -111,24 +111,18 @@ h4{
 #about,
 #about_describe,
 #timeline, 
-#crossfit {
+#tidbits{
   padding:25px 0;
-}
-
-#crossfit {
-  border-top: 1px solid gray;
 }
 
 #footer {
   font-size: 12px;
 }
 
-#photography {
+#photography,
+#about_describe,
+#tidbits{ 
   border-top: 1px solid gray;
-}
-
-#about_describe {
-  border-top:1px solid gray;
 }
 
 #about_describe img{
@@ -136,11 +130,6 @@ h4{
   margin: 0 20px 20px 0;
 }
 
-
-#tidbits {
-  padding: 25px 0;
-  border-top: 1px solid gray;
-}
 
 #about ul{
   margin:0;
