@@ -6,8 +6,7 @@ gem 'jquery-ui-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'sqlite3'
-
+gem 'pg'
 group :development do
   gem 'rspec-rails', '2.6.0'
 end
