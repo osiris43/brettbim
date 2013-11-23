@@ -1,11 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.20'
+ruby '2.0.0'
+gem 'rails', '3.2.12'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
+gem 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '2.6.0'
@@ -16,6 +18,13 @@ group :test do
   gem 'webrat', '0.7.1'
 end
 
+group :assets do
+  gem 'sass-rails', " ~> 3.2.6"
+  gem 'coffee-rails', " ~> 3.2.2"
+  gem 'uglifier', '>=1.3.0'
+  gem 'underscore-rails'
+  gem 'less-rails'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
