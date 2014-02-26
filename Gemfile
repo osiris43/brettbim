@@ -8,6 +8,7 @@ gem 'jquery-ui-rails'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'pg'
 group :development do
+  gem 'sqlite3'
   gem 'rspec-rails', '2.6.0'
 end
 
