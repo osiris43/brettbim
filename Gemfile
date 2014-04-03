@@ -6,7 +6,7 @@ gem 'jquery-ui-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'pg'
+#gem 'pg'
 group :development do
   gem 'sqlite3'
   gem 'rspec-rails', '2.6.0'
@@ -22,7 +22,6 @@ group :assets do
   gem 'coffee-rails', " ~> 3.2.2"
   gem 'uglifier', '>=1.3.0'
   gem 'underscore-rails'
-  gem 'less-rails'
 end
 # Use unicorn as the web server
 # gem 'unicorn'

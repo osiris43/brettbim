@@ -21,5 +21,11 @@ Brettbim::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+  
+  # Do not compress any assets
+  config.assets.compress = false
+
+  # Expands the lines that load the assets
+  config.assets.debug = true
 end
 
