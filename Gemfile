@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+ruby '2.0.0'
 gem 'rails', '3.2.12'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -24,7 +24,7 @@ group :assets do
   gem 'underscore-rails'
 end
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
