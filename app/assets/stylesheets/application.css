@@ -2,5 +2,5 @@
 *= require bootstrap
 *= require animate-custom
 *= require icomoon
-*= require main
+*= require_tree .
 */
