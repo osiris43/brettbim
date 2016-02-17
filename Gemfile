@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
-ruby '2.0.0'
-gem 'rails', '3.2.12'
+ruby '2.2.2'
+gem 'rails', '4.2.3'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'pg'
@@ -9,18 +9,18 @@ gem 'pg'
 #gem 'pg'
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.6.0'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'rspec', '2.6.0'
-  gem 'webrat', '0.7.1'
+  gem 'rspec'
+  gem 'webrat'
 end
 
 group :assets do
-  gem 'sass-rails', " ~> 3.2.6"
-  gem 'coffee-rails', " ~> 3.2.2"
-  gem 'uglifier', '>=1.3.0'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
   gem 'underscore-rails'
 end
 # Use unicorn as the web server

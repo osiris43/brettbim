@@ -1,9 +1,9 @@
 Brettbim::Application.routes.draw do
 
-  match '/work', :to => "pages#work"
-  match '/writing', :to => "pages#writing"
-  match '/about', :to => "pages#about"
-  match '/contact', :to => "pages#contact"
+  match '/work', :to => "pages#work", :via => [:get]
+  match '/writing', :to => "pages#writing", :via => [:get]
+  match '/about', :to => "pages#about", :via => [:get]
+  match '/contact', :to => "pages#contact", :via => [:get]
 
   root :to => 'pages#home'
   # The priority is based upon order of creation:
