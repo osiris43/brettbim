@@ -25,7 +25,7 @@ group :assets do
 end
 # Use unicorn as the web server
 gem 'unicorn'
-
+gem 'rails_12factor', group: :production
 # Deploy with Capistrano
 # gem 'capistrano'
 
